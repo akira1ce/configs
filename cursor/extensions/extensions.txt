@@ -1,0 +1,16 @@
+akira1ce.markdown-frontmatter
+anthropic.claude-code
+bradlc.vscode-tailwindcss
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+editorconfig.editorconfig
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.code-runner
+pkief.material-icon-theme
+ritwickdey.liveserver
+septwong.vscode-webstorm-theme
+steoates.autoimport
+unifiedjs.vscode-mdx
+vue.volar
+yzhang.markdown-all-in-one

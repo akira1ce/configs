@@ -1,0 +1,123 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.fontSize": 13,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontLigatures": true,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "Maple Mono NF CN, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.codeLensFontFamily": "Maple Mono NF CN, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.cursorBlinking": "smooth",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  /* workbench */
+  "workbench.colorCustomizations": {},
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editorAssociations": {},
+  "workbench.colorTheme": "GitHub Light Colorblind (Beta)",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "WebStorm Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.autoDetectColorScheme": true,
+  /* git */
+  "git.ignoreRebaseWarning": true,
+  "git.replaceTagsWhenPull": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+  /* prettier */
+  "prettier.printWidth": 100,
+  "prettier.bracketSameLine": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "terminal.integrated.cursorBlinking": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "code-runner.runInTerminal": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.copyFiles.destination": {
+    "**/*.md": "./assets/${fileName}"
+  },
+  "editor.minimap.enabled": true,
+  "biome.suggestInstallingGlobally": false,
+  "extensions.ignoreRecommendations": true,
+  "[mdx]": {
+    "editor.defaultFormatter": "unifiedjs.vscode-mdx"
+  },
+
+  "git.blame.editorDecoration.enabled": true,
+  "cursor.chat.terminalShowHoverHint": false,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "prettier.endOfLine": "auto",
+  "editor.accessibilitySupport": "on",
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "editor.formatOnSave": true,
+
+  /* markwon-frontmatter */
+  "markdownFrontmatter.enable": true,
+  "markdownFrontmatter.updateOnSave": true,
+  "markdownFrontmatter.fileTypes": ["mdx"],
+  "markdownFrontmatter.timeFormat": "YYYY-MM-DD HH:mm:ss",
+  "markdownFrontmatter.fields": {
+    "title": {
+      "type": "default",
+      "onlyIfMissing": true
+    },
+    "category": {
+      "type": "default",
+      "onlyIfMissing": true
+    },
+    "slug": {
+      "type": "filename"
+    },
+    "createdTime": {
+      "type": "timestamp",
+      "onlyIfMissing": true
+    },
+    "updatedTime": {
+      "type": "timestamp"
+    }
+  },
+  "git.suggestSmartCommit": false,
+  "claudeCode.preferredLocation": "panel"
+}
