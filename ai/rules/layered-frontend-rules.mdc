@@ -1,0 +1,58 @@
+---
+alwaysApply: true
+---
+
+**1. 命名与基础规范**
+
+- 文件命名：短横线小写（kebab-case）
+- 常量命名：全大写蛇形（UPPER_SNAKE_CASE）
+- 函数/组件：使用 `const` 声明
+- 模块导出：仅使用具名导出（`export`），禁止默认导出
+- 模块导入：使用解构导入（`import {}`），禁止 `import * as`
+
+**2. Git Commit 规范**
+
+- 格式：`fix(scope): message`
+- 要求：scope 明确模块语义，message 简洁描述变更意图
+
+**3. 架构约束（BFF + MVC）**
+
+- `service.ts`：仅负责 API 请求与接口定义
+- `controller.ts`：负责数据清洗、格式转换（如 Zod）、接口聚合
+- `page/index.tsx`：纯视图层，仅消费数据，不做业务处理
+- `types.ts`：集中类型定义
+- `store.ts`：状态管理（zustand）
+
+约束核心：数据流必须经过 `service → controller → view`，禁止跨层处理逻辑。
+
+**4. 模块结构规范**
+每个页面按模块内聚组织：
+
+- service / controller / types / store 必须在同一目录
+- 组件统一收敛在 `components/` 下
+- 模块职责单一，对外暴露最小接口
+
+**5. 组件拆分规则**
+
+- 总分总：先定义整体结构 → 拆分子模块 → 最终组合
+- 拆分目标：优先提升可读性与维护性，而非复用
+- 200 行阈值：超过需评估拆分
+- 语义优先：组件命名需表达清晰业务语义
+- Loading 映射：一个 loading 状态对应一个完整异步流程组件
+
+**6. 数据与视图边界**
+
+- View 层禁止：
+  - 数据清洗
+  - 接口拼装
+  - 业务逻辑判断
+- Controller 层统一承担：
+  - 数据结构适配
+  - 多接口聚合
+  - 视图数据模型构建
+
+**7. 模块设计原则**
+
+- 高内聚：模块内部自包含（service/controller/store/组件）
+- 低耦合：模块之间通过明确接口通信
+- 可替换：service/controller 变更不影响 view 层结构
