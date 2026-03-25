@@ -1,44 +1,54 @@
 {
+  /* 编辑器基础设置 */
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.fontSize": 13,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontLigatures": true,
-  "editor.renderFinalNewline": "dimmed",
-  "editor.linkedEditing": true,
   "editor.fontFamily": "Maple Mono NF CN, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.codeLensFontFamily": "Maple Mono NF CN, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
+  "editor.linkedEditing": true,
+  "editor.renderFinalNewline": "dimmed",
   "editor.quickSuggestions": {
     "strings": "on"
   },
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
   "editor.scrollbar.verticalScrollbarSize": 10,
-  /* workbench */
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "on",
+
+  /* 工作台外观 */
   "workbench.colorCustomizations": {},
   "workbench.tree.enableStickyScroll": true,
   "workbench.editorAssociations": {},
-  "workbench.colorTheme": "GitHub Light Colorblind (Beta)",
-  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "WebStorm Light",
+  "workbench.preferredDarkColorTheme": "WebStorm New Dark",
   "workbench.preferredLightColorTheme": "WebStorm Light",
   "workbench.iconTheme": "material-icon-theme",
   "window.autoDetectColorScheme": true,
-  /* git */
+
+  /* Git 相关 */
   "git.ignoreRebaseWarning": true,
   "git.replaceTagsWhenPull": true,
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "never",
-  /* prettier */
+  "git.blame.editorDecoration.enabled": true,
+  "git.suggestSmartCommit": false,
+
+  /* Prettier 格式化 */
   "prettier.printWidth": 100,
   "prettier.bracketSameLine": true,
+  "prettier.endOfLine": "auto",
+
+  /* 语言特定格式化器 */
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
@@ -47,53 +57,62 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascriptreact]": {
+  "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[css]": {
+  "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmPasteNative": false,
-  "terminal.integrated.cursorBlinking": true,
-  "security.promptForLocalFileProtocolHandling": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "code-runner.runInTerminal": true,
-  "diffEditor.ignoreTrimWhitespace": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "markdown.copyFiles.destination": {
-    "**/*.md": "./assets/${fileName}"
-  },
-  "editor.minimap.enabled": true,
-  "biome.suggestInstallingGlobally": false,
-  "extensions.ignoreRecommendations": true,
   "[mdx]": {
     "editor.defaultFormatter": "unifiedjs.vscode-mdx"
   },
 
-  "git.blame.editorDecoration.enabled": true,
-  "cursor.chat.terminalShowHoverHint": false,
-  "editor.scrollbar.horizontalScrollbarSize": 10,
-  "prettier.endOfLine": "auto",
-  "editor.accessibilitySupport": "on",
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "editor.formatOnSave": true,
+  /* 文件资源管理器 */
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
 
-  /* markwon-frontmatter */
+  /* 终端 */
+  "terminal.integrated.cursorBlinking": true,
+
+  /* 安全与信任 */
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  /* 代码运行器 */
+  "code-runner.runInTerminal": true,
+
+  /* 差异编辑器 */
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  /* TypeScript / JavaScript */
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  /* Markdown 相关 */
+  "markdown.copyFiles.destination": {
+    "**/*.md": "./assets/${fileName}"
+  },
+
+  /* Markdown Frontmatter 插件 */
   "markdownFrontmatter.enable": true,
   "markdownFrontmatter.updateOnSave": true,
   "markdownFrontmatter.fileTypes": ["mdx"],
@@ -118,6 +137,13 @@
       "type": "timestamp"
     }
   },
-  "git.suggestSmartCommit": false,
-  "claudeCode.preferredLocation": "panel"
+
+  /* 扩展相关 */
+  "extensions.ignoreRecommendations": true,
+
+  /* Cursor 编辑器特定 */
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "claudeCode.preferredLocation": "panel",
+
+  "http.proxy": "http://127.0.0.1:6152"
 }
