@@ -2,6 +2,7 @@
   /* 编辑器基础设置 */
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
+  "editor.fontSize": 14,
   "editor.fontFamily": "LXGW WenKai Mono, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.codeLensFontFamily": "LXGW WenKai Mono, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -91,6 +92,7 @@
 
   /* 终端 */
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
 
   /* 安全与信任 */
   "security.promptForLocalFileProtocolHandling": false,
@@ -142,6 +144,5 @@
 
   /* Cursor 编辑器特定 */
   "cursor.composer.shouldChimeAfterChatFinishes": true,
-  "claudeCode.preferredLocation": "panel",
-  "editor.fontSize": 14
+  "claudeCode.preferredLocation": "panel"
 }
