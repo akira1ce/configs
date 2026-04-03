@@ -2,9 +2,8 @@
   /* 编辑器基础设置 */
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.fontSize": 13,
-  "editor.fontFamily": "Maple Mono NF CN, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.codeLensFontFamily": "Maple Mono NF CN, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "LXGW WenKai Mono, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.codeLensFontFamily": "LXGW WenKai Mono, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
@@ -26,7 +25,7 @@
   "workbench.tree.enableStickyScroll": true,
   "workbench.editorAssociations": {},
   "workbench.colorTheme": "WebStorm Light",
-  "workbench.preferredDarkColorTheme": "WebStorm New Dark",
+  "workbench.preferredDarkColorTheme": "WebStorm Darker",
   "workbench.preferredLightColorTheme": "WebStorm Light",
   "workbench.iconTheme": "material-icon-theme",
   "window.autoDetectColorScheme": true,
@@ -144,6 +143,5 @@
   /* Cursor 编辑器特定 */
   "cursor.composer.shouldChimeAfterChatFinishes": true,
   "claudeCode.preferredLocation": "panel",
-
-  "http.proxy": "http://127.0.0.1:6152"
+  "editor.fontSize": 14
 }
