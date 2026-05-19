@@ -1,0 +1,121 @@
+{
+  "proxy": "",
+  "buffer_line_height": "comfortable",
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "buffer_font_family": "Fira Code",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "buffer_font_size": 13.0,
+  "outline_panel": {
+    "dock": "right",
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "button": true
+  },
+  "project_panel": {
+    "dock": "right",
+    "button": true,
+    "auto_fold_dirs": true,
+    "starts_open": true,
+    "git_status": true,
+    "file_icons": true
+  },
+  "use_system_window_tabs": false,
+  "centered_layout": {},
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_branch_status_icon": true
+  },
+  "languages": {
+    "TypeScript": {
+      "inlay_hints": {
+        "enabled": false
+      }
+    }
+  },
+  "toolbar": {
+    "code_actions": false
+  },
+  "scrollbar": {
+    "search_results": true,
+    "git_diff": true
+  },
+  "cursor_shape": "bar",
+  "confirm_quit": true,
+  "vim_mode": false,
+  "agent": {
+    "dock": "left",
+    "default_profile": "write",
+    "default_model": {
+      "effort": "high",
+      "enable_thinking": false,
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro"
+    },
+    "play_sound_when_agent_done": "always"
+  },
+  "git_panel": {
+    "dock": "right",
+    "tree_view": true,
+    "collapse_untracked_diff": false,
+    "sort_by_path": false
+  },
+  "icon_theme": "Material Icon Theme",
+  "inlay_hints": {
+    "enabled": false,
+    "show_value_hints": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": {
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "platform": false,
+      "function": false
+    }
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 0,
+      "padding": 7,
+      "min_column": 0,
+      "show_commit_summary": false
+    }
+  },
+  "linked_edits": true,
+  "hard_tabs": false,
+  "tab_size": 2,
+  "minimap": {
+    "show": "auto"
+  },
+  "cursor_blink": true,
+  "terminal": {
+    "toolbar": {},
+    "font_size": 13.0,
+    "dock": "bottom",
+    "blinking": "on"
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte (Blur) [Heavy]",
+    "dark": "Catppuccin Mocha (Blur) [Heavy]"
+  }
+}
