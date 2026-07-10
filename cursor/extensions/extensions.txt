@@ -11,6 +11,7 @@ pkief.material-icon-theme
 ritwickdey.liveserver
 septwong.vscode-webstorm-theme
 steoates.autoimport
+supermaven.supermaven
 unifiedjs.vscode-mdx
 vue.volar
 yzhang.markdown-all-in-one
