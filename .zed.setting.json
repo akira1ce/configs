@@ -1,8 +1,36 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "expand_excerpt_lines": 5,
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "diff_view_style": "unified",
+  "cli_default_open_behavior": "new_window",
   "proxy": "",
   "buffer_line_height": "comfortable",
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "buffer_font_family": "Fira Code",
   "session": {
@@ -11,14 +39,14 @@
   "remove_trailing_whitespace_on_save": true,
   "buffer_font_size": 13.0,
   "outline_panel": {
-    "dock": "right",
+    "dock": "left",
     "git_status": true,
     "folder_icons": true,
     "file_icons": true,
     "button": true
   },
   "project_panel": {
-    "dock": "right",
+    "dock": "left",
     "button": true,
     "auto_fold_dirs": true,
     "starts_open": true,
@@ -32,6 +60,7 @@
     "file_icons": true
   },
   "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
     "show": true
   },
   "title_bar": {
@@ -55,8 +84,9 @@
   "confirm_quit": true,
   "vim_mode": false,
   "agent": {
-    "dock": "left",
-    "default_profile": "write",
+    "sidebar_side": "left",
+    "dock": "right",
+    "default_profile": "ask",
     "default_model": {
       "effort": "high",
       "enable_thinking": false,
@@ -66,12 +96,16 @@
     "play_sound_when_agent_done": "always"
   },
   "git_panel": {
-    "dock": "right",
+    "dock": "left",
     "tree_view": true,
     "collapse_untracked_diff": false,
     "sort_by_path": false
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
   "inlay_hints": {
     "enabled": false,
     "show_value_hints": true,
@@ -106,16 +140,17 @@
   },
   "cursor_blink": true,
   "terminal": {
-    "toolbar": {},
+    "show_count_badge": true,
     "font_size": 13.0,
+    "toolbar": {},
     "dock": "bottom",
     "blinking": "on"
   },
   "base_keymap": "VSCode",
   "ui_font_size": 16.0,
   "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte (Blur) [Heavy]",
-    "dark": "Catppuccin Mocha (Blur) [Heavy]"
+    "mode": "light",
+    "light": "JetBrains Islands Light",
+    "dark": "JetBrains Islands Dark"
   }
 }

@@ -1,0 +1,150 @@
+{
+  /* 编辑器基础设置 */
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.codeLensFontFamily": "Fira Code, JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.linkedEditing": true,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.quickSuggestions": {
+    "strings": "on",
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+
+  /* 工作台外观 */
+  "workbench.colorCustomizations": {},
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editorAssociations": {},
+  "workbench.colorTheme": "WebStorm Light",
+  "workbench.preferredLightColorTheme": "WebStorm Light",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.autoDetectColorScheme": true,
+
+  /* Git 相关 */
+  "git.ignoreRebaseWarning": true,
+  "git.replaceTagsWhenPull": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+  "git.blame.editorDecoration.enabled": true,
+  "git.suggestSmartCommit": false,
+
+  /* Prettier 格式化 */
+  "prettier.printWidth": 100,
+  "prettier.bracketSameLine": true,
+  "prettier.endOfLine": "auto",
+
+  /* 语言特定格式化器 */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[mdx]": {
+    "editor.defaultFormatter": "unifiedjs.vscode-mdx",
+  },
+
+  /* 文件资源管理器 */
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+
+  /* 终端 */
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 13,
+
+  /* 安全与信任 */
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  /* 代码运行器 */
+  "code-runner.runInTerminal": true,
+
+  /* 差异编辑器 */
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  /* TypeScript / JavaScript */
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+
+  /* Markdown 相关 */
+  "markdown.copyFiles.destination": {
+    "**/*.md": "./assets/${fileName}",
+  },
+
+  /* Markdown Frontmatter 插件 */
+  "markdownFrontmatter.enable": true,
+  "markdownFrontmatter.updateOnSave": true,
+  "markdownFrontmatter.fileTypes": ["mdx"],
+  "markdownFrontmatter.timeFormat": "YYYY-MM-DD HH:mm:ss",
+  "markdownFrontmatter.fields": {
+    "title": {
+      "type": "default",
+      "onlyIfMissing": true,
+    },
+    "category": {
+      "type": "default",
+      "onlyIfMissing": true,
+    },
+    "slug": {
+      "type": "filename",
+    },
+    "createdTime": {
+      "type": "timestamp",
+      "onlyIfMissing": true,
+    },
+    "updatedTime": {
+      "type": "timestamp",
+    },
+  },
+
+  /* 扩展相关 */
+  "extensions.ignoreRecommendations": true,
+
+  /* Cursor 编辑器特定 */
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "claudeCode.preferredLocation": "panel",
+  "editor.fontSize": 13,
+  "workbench.browser.showInTitleBar": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "js/ts.tsserver.log": "verbose",
+}
