@@ -76,9 +76,9 @@
   "remove_trailing_whitespace_on_save": true,
   "buffer_font_size": 13.0,
   "outline_panel": {
+    "folder_indicator": "icon",
     "dock": "left",
     "git_status": true,
-    "folder_icons": true,
     "file_icons": true,
     "button": true
   },
@@ -147,10 +147,10 @@
     "play_sound_when_agent_done": "always"
   },
   "git_panel": {
+    "folder_indicator": "icon",
     "show_count_badge": true,
     "entry_primary_click_action": "file_diff",
     "diff_stats": true,
-    "folder_icons": true,
     "file_icons": true,
     "status_style": "icon",
     "starts_open": false,
