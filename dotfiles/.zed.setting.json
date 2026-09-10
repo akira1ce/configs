@@ -1,194 +1,180 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // 编辑器
-  "base_keymap": "VSCode",
-  "vim_mode": false,
-
-  "buffer_font_family": "Fira Code",
-  "buffer_font_size": 13.0,
-  "buffer_font_weight": 400.0,
-  "buffer_line_height": "comfortable",
-
-  "cursor_shape": "bar",
-  "cursor_blink": true,
-
-  "tab_size": 2,
-  "hard_tabs": false,
-  "linked_edits": true,
-
-  "format_on_save": "on",
-  "remove_trailing_whitespace_on_save": true,
-
-  "show_whitespaces": "selection",
-  "colorize_brackets": false,
-
+  "markdown_preview": {
+    "limit_content_width": true,
+    "max_width": 800.0
+  },
+  "markdown_preview_code_font_family": "LXGW WenKai",
+  "active_pane_modifiers": {
+    "border_size": 0.0
+  },
+  "word_diff_enabled": true,
+  "hover_popover_sticky": true,
+  "sticky_scroll": {
+    "enabled": false
+  },
   "focus_follows_mouse": {
     "enabled": false
   },
-
-  "autoscroll_on_clicks": false,
-
-  "expand_excerpt_lines": 5,
-
-  // UI 外观
-  "theme": {
-    "mode": "system",
-    "light": "JetBrains Islands Light",
-    "dark": "JetBrains Islands Dark"
-  },
-
-  "icon_theme": {
-    "mode": "system",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
-  },
-
-  "ui_font_family": ".ZedSans",
-  "ui_font_size": 16.0,
-
-  "centered_layout": {},
-
   "bottom_dock_layout": "contained",
-
-  "use_system_window_tabs": false,
-
-  "confirm_quit": true,
-
-  // 标题栏 / 工具栏 / 状态栏
-  "title_bar": {
-    "show_menus": false,
-    "show_branch_status_icon": true
-  },
-
-  "toolbar": {
-    "breadcrumbs": true,
-    "code_actions": true
-  },
-
   "status_bar": {
-    "show_active_file": true,
+    "show_active_file": false,
     "line_endings_button": true
   },
-
-  // 标签页
+  "search": {
+    "center_on_match": true
+  },
+  "colorize_brackets": false,
+  "show_whitespaces": "selection",
+  "autoscroll_on_clicks": false,
+  "which_key": {
+    "enabled": false
+  },
+  "markdown_preview_font_family": "LXGW WenKai",
+  "buffer_font_weight": 400.0,
+  "ui_font_family": ".ZedSans",
+  "gutter": {
+    "min_line_number_digits": 4
+  },
+  "format_on_save": "on",
+  "expand_excerpt_lines": 5,
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "diff_view_style": "unified",
+  "cli_default_open_behavior": "new_window",
+  "proxy": "",
+  "buffer_line_height": "comfortable",
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "buffer_font_family": "Fira Code",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "buffer_font_size": 13.0,
+  "outline_panel": {
+    "dock": "left",
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "button": true
+  },
+  "project_panel": {
+    "scrollbar": {
+      "show": "auto"
+    },
+    "hide_hidden": false,
+    "hide_root": false,
+    "git_status_indicator": true,
+    "diagnostic_badges": true,
+    "bold_folder_labels": false,
+    "dock": "left",
+    "button": true,
+    "auto_fold_dirs": true,
+    "starts_open": true,
+    "git_status": true,
+    "file_icons": true
+  },
+  "use_system_window_tabs": false,
+  "centered_layout": {},
   "tabs": {
     "show_diagnostics": "all",
     "git_status": true,
     "file_icons": true
   },
-
   "tab_bar": {
-    "show": true,
-    "show_pinned_tabs_in_separate_row": false
+    "show_pinned_tabs_in_separate_row": false,
+    "show": true
   },
-
-  // 文件树（Project）
-  "project_panel": {
-    "dock": "left",
-    "button": true,
-
-    "starts_open": true,
-    "auto_fold_dirs": true,
-
-    "hide_hidden": false,
-    "hide_root": false,
-
-    "git_status": true,
-    "git_status_indicator": true,
-
-    "diagnostic_badges": true,
-
-    "bold_folder_labels": false,
-
-    "file_icons": true,
-
-    "scrollbar": {
-      "show": "auto"
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_status_icon": true
+  },
+  "languages": {
+    "TypeScript": {
+      "inlay_hints": {
+        "enabled": false
+      }
     }
   },
-
-  // Outline
-  "outline_panel": {
-    "dock": "left",
-    "button": true,
-
-    "git_status": true,
-    "folder_icons": true,
-    "file_icons": true
+  "toolbar": {
+    "breadcrumbs": true,
+    "code_actions": true
   },
-
-  // Git
-  "git": {
-    "file_diff": {},
-
-    "inline_blame": {
-      "enabled": true,
-      "delay_ms": 0,
-      "padding": 7,
-      "min_column": 0,
-      "show_commit_summary": false
-    }
-  },
-
-  "git_panel": {
-    "dock": "left",
-    "button": true,
-
-    "starts_open": false,
-
-    "tree_view": true,
-    "group_by": "none",
-    "sort_by_path": false,
-
-    "status_style": "icon",
-
-    "show_count_badge": true,
-
-    "entry_primary_click_action": "file_diff",
-
-    "diff_stats": true,
-    "collapse_untracked_diff": false,
-
-    "folder_icons": true,
-    "file_icons": true
-  },
-
-  "diff_view_style": "unified",
-
-  // 滚动条 / Minimap
   "scrollbar": {
     "show": "auto",
     "search_results": true,
     "git_diff": true
   },
-
-  "minimap": {
-    "show": "auto"
+  "cursor_shape": "bar",
+  "confirm_quit": true,
+  "vim_mode": false,
+  "agent": {
+    "button": true,
+    "flexible": true,
+    "sidebar_side": "left",
+    "dock": "right",
+    "default_profile": "ask",
+    "default_model": {
+      "effort": "high",
+      "enable_thinking": false,
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro"
+    },
+    "play_sound_when_agent_done": "always"
   },
-
-  // 搜索
-  "search": {
-    "center_on_match": true
+  "git_panel": {
+    "show_count_badge": true,
+    "entry_primary_click_action": "file_diff",
+    "diff_stats": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "status_style": "icon",
+    "starts_open": false,
+    "button": true,
+    "group_by": "none",
+    "dock": "left",
+    "tree_view": true,
+    "collapse_untracked_diff": false,
+    "sort_by_path": false
   },
-
-  // Gutter
-  "gutter": {
-    "min_line_number_digits": 4
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
   },
-
-  // Inlay Hints
   "inlay_hints": {
     "enabled": false,
-
     "show_value_hints": true,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true,
-
     "show_background": false,
-
     "edit_debounce_ms": 700,
     "scroll_debounce_ms": 50,
-
     "toggle_on_modifiers_press": {
       "control": false,
       "alt": false,
@@ -197,94 +183,41 @@
       "function": false
     }
   },
-
-  // Language / LSP
-  "languages": {
-    "TypeScript": {
-      "inlay_hints": {
-        "enabled": false
-      }
+  "git": {
+    "file_diff": {
+      "show_full_file": true
+    },
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 0,
+      "padding": 7,
+      "min_column": 0,
+      "show_commit_summary": false
     }
   },
-
-  "lsp": {
-    "vtsls": {
-      "enable_lsp_tasks": true,
-
-      "settings": {
-        "typescript": {
-          "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
-        },
-
-        "javascript": {
-          "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
-        }
-      }
-    }
+  "linked_edits": true,
+  "hard_tabs": false,
+  "tab_size": 2,
+  "minimap": {
+    "show": "auto"
   },
-
-  // Markdown
-  "markdown_preview_font_family": "LXGW WenKai",
-  "markdown_preview_code_font_family": "Fira Code",
-
-  // Terminal
+  "cursor_blink": true,
   "terminal": {
-    "dock": "bottom",
-
+    "cursor_shape": "bar",
+    "copy_on_select": false,
     "font_family": "Fira Code",
-
-    "copy_on_select": true,
     "show_count_badge": true,
-
-    "blinking": "on",
-
     "toolbar": {
       "breadcrumbs": false
-    }
-  },
-
-  // AI Agent
-  "agent": {
-    "button": true,
-    "flexible": true,
-
-    "dock": "right",
-    "sidebar_side": "left",
-
-    "default_profile": "ask",
-
-    "default_model": {
-      "provider": "deepseek",
-      "model": "deepseek-v4-pro",
-      "effort": "high",
-      "enable_thinking": false
     },
-
-    "play_sound_when_agent_done": "always"
+    "dock": "bottom",
+    "blinking": "on"
   },
-
-  // Collaboration
-  "collaboration_panel": {
-    "dock": "left"
-  },
-
-  // Session
-  "session": {
-    "trust_all_worktrees": true
-  },
-
-  // CLI
-  "cli_default_open_behavior": "new_window",
-
-  // 网络
-  "proxy": "",
-
-  // Which Key
-  "which_key": {
-    "enabled": false
+  "base_keymap": "VSCode",
+  "ui_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Iced Latte (Blur) [Heavy]",
+    "dark": "Catppuccin Espresso (Blur) [Heavy]"
   }
 }
