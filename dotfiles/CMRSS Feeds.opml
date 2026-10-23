@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head><title>CMRSS Feeds</title></head>
+<body>
+  <outline type="rss" text="华尔街见闻 - 实时快讯 - 要闻" xmlUrl="https://rsshub.dicomp.net/wallstreetcn/live" htmlUrl="https://wallstreetcn.com/live/global"/>
+  <outline type="rss" text="7*24小时全球财经直播_同花顺财经" xmlUrl="https://rsshub.dicomp.net/10jqka/realtimenews" htmlUrl="https://news.10jqka.com.cn/realtimenews.html"/>
+  <outline type="rss" text="每日AI资讯 | AI工具集" xmlUrl="https://rsshub.dicomp.net/ai-bot/daily-ai-news" htmlUrl="https://ai-bot.cn/daily-ai-news/"/>
+  <outline type="rss" text="AI新闻资讯" xmlUrl="https://rsshub.dicomp.net/aibase/news" htmlUrl="https://www.aibase.com/zh/news"/>
+  <outline type="rss" text="AI日报" xmlUrl="https://rsshub.dicomp.net/aibase/daily" htmlUrl="https://www.aibase.com/zh/daily"/>
+  <outline type="rss" text="豆瓣 - 实时热门电影" xmlUrl="https://rsshub.dicomp.net/douban/list/movie_real_time_hotest" htmlUrl="https://m.douban.com/subject_collection/movie_real_time_hotest"/>
+  <outline type="rss" text="阮一峰的网络日志" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"/>
+  <outline type="rss" text="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com"/>
+  <outline type="rss" text="V2EX" xmlUrl="https://v2ex.com/index.xml"/>
+  <outline type="rss" text="潮流周刊" xmlUrl="https://weekly.tw93.fun/rss.xml" htmlUrl="https://weekly.tw93.fun/"/>
+  <outline type="rss" text="LINUX DO " xmlUrl="https://linux.do/latest.rss" htmlUrl="https://linux.do/latest"/>
+  <outline type="rss" text="JavaScript Weekly" xmlUrl="https://javascriptweekly.com/rss/" htmlUrl="https://javascriptweekly.com/"/>
+</body>
+</opml>
